@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+  font-family: 'Anton', sans-serif;
+}
+h4{
+  color: white
+}
+/* WINDOW */
+.winWrapper{
+  width: 400px;
+  height: 190px;
+  background: #2a3958db;
+}
+
+.modalBtn{
+  background: linear-gradient(to bottom, #7cbef6 50%,#4696f0 50%);
+  width: 180px;
+  height: 25px;
+  margin-top: 17px;
+  border-radius: 5px;
+}
+
+.checkBtn{
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Accept-icon.png) no-repeat left/contain ,linear-gradient(to bottom, #7cbef6 50%,#4696f0 50%);
+}
+
+.avatarWrapper img{
+  min-height: 80px
+}
+
+.show{
+  display: flex!important;
+  align-items: center;
+  height: 100%;
+}
